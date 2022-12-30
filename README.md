@@ -22,8 +22,6 @@ inspired by [adam wathan](https://adamwathan.me/advanced-vue-component-design/)
 [typescript issue](https://github.com/vuejs/core/discussions/7438)
 
 ## @Shopify/draggable
-
-i used this library because of referense
 https://github.com/Shopify/draggable
 
 # Vue 3 + TypeScript + Vite

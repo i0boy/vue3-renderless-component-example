@@ -1,12 +1,30 @@
 # vue3-renderless-component-example
 
-POC of two pattern with vue3
-- renderless component
-- provide / inject
+inspired by [adam wathan](https://adamwathan.me/advanced-vue-component-design/)
 
-[https://github.com/vuejs/core/discussions/7438](typescript issue )
+## 1. renderless component
 
+- Components that do not make `markup`
+- `Markup` is only injected through slot
+- Provides only state, data and actions
+  - DOM manipulation instead of consumer
+  - ex) focusing
+  - Data sorting, filtering, selecting, etc. (index)
 
+## 2. provide / inject
+
+- To avoid unnecessary props drilling
+- Data to be encapsulated internally throughout the component module
+- Service locator pattern, similar to global store
+
+## Scoped slot + Typescript
+
+[typescript issue](https://github.com/vuejs/core/discussions/7438)
+
+## @Shopify/draggable
+
+i used this library because of referense
+https://github.com/Shopify/draggable
 
 # Vue 3 + TypeScript + Vite
 
